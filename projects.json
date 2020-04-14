@@ -1,0 +1,8 @@
+[        
+        {"key":"com.shell.us-core-ui","name":"surveillanceUI", "title":"us-core-ui-ng"},
+        {"key":"com.shell.pulses","name":"surveillanceDB", "title":"dp-base-web-app"},
+        {"key":"com.shell.couchbasedigitalwork","name":"mobileDB", "title":"Azure_CouchbaseDigitalWork_MVP13"},
+        {"key":"com.shell.digitalworkmessaging","name":"mobileDBTransport", "title":"Azure_DigitalWorkMessaging_New"},
+        {"key":"com.shell.pulsemobileangular","name":"mobileUI", "title":"Pulse_Mobile_Angular"},
+        {"key":"com.shell.usanalyticsbaseapp","name":"analytics", "title":"us-analytics-base-app"}
+    ]

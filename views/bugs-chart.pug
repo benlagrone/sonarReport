@@ -1,0 +1,17 @@
+extends head-chart 
+
+block layout-content
+  div.View.WelcomeView1
+    h1.Banner #{title}
+    div.Message
+        <div id="series_chart_div" style="width: 900px; height: 500px;"></div>
+    
+    script
+        include ../bugs-chart.js
+   
+    ul.NavButtons
+        a(href="/")
+            span.NavButton= "Sonar"
+
+        a(href="/chart")
+            span.NavButton= "Sonar Chart"

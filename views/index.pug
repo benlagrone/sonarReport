@@ -1,0 +1,21 @@
+extends layout
+
+block layout-content
+  div.View.WelcomeView3
+    h1.Banner SonarQube Results
+    div.Message
+      div.Title
+        h3 Code Scan
+        h1 Current Code
+         ul
+            each val in projectsData
+                li= val.key + ': ' + val.issues
+
+      span.Details Results Breakdown
+
+    ul.NavButtons
+        a(href="/chart")
+            span.NavButton= "Sonar Chart"
+
+        a(href="/bugs")
+            span.NavButton= "Bugs Chart"

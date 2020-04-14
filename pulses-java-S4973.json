@@ -1,0 +1,622 @@
+[
+        {
+            "key": "AXE1NvGlBwdaS5mJQxQR",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/controller/redis/CacheController.java",
+            "project": "com.shell.pulses",
+            "line": 903,
+            "hash": "f66dba161569bf5be1d5d18bf97fb443",
+            "textRange": {
+                "startLine": 903,
+                "endLine": 903,
+                "startOffset": 30,
+                "endOffset": 32
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-04-01T10:04:27+0000",
+            "updateDate": "2020-04-07T18:31:08+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEw-j6D2f-CGBOflxBn",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/repository/redis/EventHistorySummaryRepository.java",
+            "project": "com.shell.pulses",
+            "line": 195,
+            "hash": "7d3dcf3c3c03d02ec6cbfaf95bcef514",
+            "textRange": {
+                "startLine": 195,
+                "endLine": 195,
+                "startOffset": 27,
+                "endOffset": 29
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-31T14:20:11+0000",
+            "updateDate": "2020-04-07T18:31:10+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcg4812f-CGBOfkCfU",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/CIWService.java",
+            "project": "com.shell.pulses",
+            "line": 2749,
+            "hash": "02441abce4c1ad39ef93bf23e70b24d4",
+            "textRange": {
+                "startLine": 2749,
+                "endLine": 2749,
+                "startOffset": 30,
+                "endOffset": 32
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T14:58:07+0000",
+            "updateDate": "2020-04-07T18:31:13+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcg5Cu2f-CGBOfkCfX",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/DeltaSyncService.java",
+            "project": "com.shell.pulses",
+            "line": 326,
+            "hash": "74800696be304af550f545070ccfcd6f",
+            "textRange": {
+                "startLine": 326,
+                "endLine": 326,
+                "startOffset": 35,
+                "endOffset": 37
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T14:58:07+0000",
+            "updateDate": "2020-04-07T18:31:15+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcSmNG2f-CGBOfj95f",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/CreateClairsShiftHandoverService.java",
+            "project": "com.shell.pulses",
+            "line": 174,
+            "hash": "41fb5b1851c6eaa4c9428a0a17e1e912",
+            "textRange": {
+                "startLine": 174,
+                "endLine": 174,
+                "startOffset": 79,
+                "endOffset": 81
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T13:55:20+0000",
+            "updateDate": "2020-04-07T18:31:17+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcSmHf2f-CGBOfj95V",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/InsightActionService.java",
+            "project": "com.shell.pulses",
+            "line": 78,
+            "hash": "840809a3b9031389e90172b5c8a2f991",
+            "textRange": {
+                "startLine": 78,
+                "endLine": 78,
+                "startOffset": 113,
+                "endOffset": 115
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T13:55:20+0000",
+            "updateDate": "2020-04-07T18:31:20+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcSmHf2f-CGBOfj95W",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/InsightActionService.java",
+            "project": "com.shell.pulses",
+            "line": 84,
+            "hash": "3904018fb673a4d82965f59f8dd8f2b7",
+            "textRange": {
+                "startLine": 84,
+                "endLine": 84,
+                "startOffset": 98,
+                "endOffset": 100
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T13:55:20+0000",
+            "updateDate": "2020-04-07T18:31:22+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcSmHf2f-CGBOfj95X",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/InsightActionService.java",
+            "project": "com.shell.pulses",
+            "line": 90,
+            "hash": "add97430c9f77bd9a1080e8e055500d3",
+            "textRange": {
+                "startLine": 90,
+                "endLine": 90,
+                "startOffset": 110,
+                "endOffset": 112
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T13:55:20+0000",
+            "updateDate": "2020-04-07T18:31:24+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcSmHf2f-CGBOfj95Y",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/InsightActionService.java",
+            "project": "com.shell.pulses",
+            "line": 102,
+            "hash": "5a8fe51759d56d4cfde9d4445ef1d637",
+            "textRange": {
+                "startLine": 102,
+                "endLine": 102,
+                "startOffset": 124,
+                "endOffset": 126
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T13:55:20+0000",
+            "updateDate": "2020-04-07T18:31:26+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcSmHf2f-CGBOfj95Z",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/InsightActionService.java",
+            "project": "com.shell.pulses",
+            "line": 109,
+            "hash": "2725a7e7440410884bf51d1c03478841",
+            "textRange": {
+                "startLine": 109,
+                "endLine": 109,
+                "startOffset": 134,
+                "endOffset": 136
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T13:55:20+0000",
+            "updateDate": "2020-04-07T18:31:29+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcSmHf2f-CGBOfj95a",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/InsightActionService.java",
+            "project": "com.shell.pulses",
+            "line": 116,
+            "hash": "baa956f2da6077dccfcce59afce83962",
+            "textRange": {
+                "startLine": 116,
+                "endLine": 116,
+                "startOffset": 103,
+                "endOffset": 105
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T13:55:20+0000",
+            "updateDate": "2020-04-07T18:31:31+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcSmHf2f-CGBOfj95b",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/InsightActionService.java",
+            "project": "com.shell.pulses",
+            "line": 123,
+            "hash": "29e9cee9aa6bd09a1c40a6186977b839",
+            "textRange": {
+                "startLine": 123,
+                "endLine": 123,
+                "startOffset": 136,
+                "endOffset": 138
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T13:55:20+0000",
+            "updateDate": "2020-04-07T18:31:33+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcSmHf2f-CGBOfj95c",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/InsightActionService.java",
+            "project": "com.shell.pulses",
+            "line": 130,
+            "hash": "0fa5e35618354d19e169ad4c016ce913",
+            "textRange": {
+                "startLine": 130,
+                "endLine": 130,
+                "startOffset": 146,
+                "endOffset": 148
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T13:55:20+0000",
+            "updateDate": "2020-04-07T18:31:36+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcSmHf2f-CGBOfj95d",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/InsightActionService.java",
+            "project": "com.shell.pulses",
+            "line": 137,
+            "hash": "cce1687d6b6ce358bd8a0278dc464c85",
+            "textRange": {
+                "startLine": 137,
+                "endLine": 137,
+                "startOffset": 116,
+                "endOffset": 118
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T13:55:20+0000",
+            "updateDate": "2020-04-07T18:31:38+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcSmHf2f-CGBOfj95e",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/InsightActionService.java",
+            "project": "com.shell.pulses",
+            "line": 144,
+            "hash": "d2fb8fbec7403d219f8003f74882513e",
+            "textRange": {
+                "startLine": 144,
+                "endLine": 144,
+                "startOffset": 126,
+                "endOffset": 128
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T13:55:20+0000",
+            "updateDate": "2020-04-07T18:31:40+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcSlz82f-CGBOfj95R",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/InsightDetailService.java",
+            "project": "com.shell.pulses",
+            "line": 37,
+            "hash": "4527bcdbd7c781195943fe19d941f42b",
+            "textRange": {
+                "startLine": 37,
+                "endLine": 37,
+                "startOffset": 121,
+                "endOffset": 123
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T13:55:20+0000",
+            "updateDate": "2020-04-07T18:31:43+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcSlz82f-CGBOfj95S",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/InsightDetailService.java",
+            "project": "com.shell.pulses",
+            "line": 43,
+            "hash": "947b3e2fb971b800468e3247374b019f",
+            "textRange": {
+                "startLine": 43,
+                "endLine": 43,
+                "startOffset": 104,
+                "endOffset": 106
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T13:55:20+0000",
+            "updateDate": "2020-04-07T18:31:45+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXEcSlz82f-CGBOfj95T",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/InsightDetailService.java",
+            "project": "com.shell.pulses",
+            "line": 51,
+            "hash": "abf93cf64c6daae9a30af64418b0a656",
+            "textRange": {
+                "startLine": 51,
+                "endLine": 51,
+                "startOffset": 123,
+                "endOffset": 125
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-27T13:55:20+0000",
+            "updateDate": "2020-04-07T18:31:47+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXENxfO5BwdaS5mJLaBU",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/DeltaSyncService.java",
+            "project": "com.shell.pulses",
+            "line": 142,
+            "hash": "bfce869af3d5393591b22f045477c63d",
+            "textRange": {
+                "startLine": 142,
+                "endLine": 142,
+                "startOffset": 62,
+                "endOffset": 64
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-24T18:14:59+0000",
+            "updateDate": "2020-04-07T18:31:49+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AW7HGf4tynW7J7WeHIlr",
+            "rule": "java:S4973",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/CreateClairsShiftHandoverService.java",
+            "project": "com.shell.pulses",
+            "line": 53,
+            "hash": "a40d3d99b7b2bdf77af1bdfad4253bd0",
+            "textRange": {
+                "startLine": 53,
+                "endLine": 53,
+                "startOffset": 63,
+                "endOffset": 65
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use the \"equals\" method if value comparison was intended.",
+            "effort": "5min",
+            "debt": "5min",
+            "assignee": "Mushtaq.Mir@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2019-04-16T05:32:58+0000",
+            "updateDate": "2020-04-07T18:31:52+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        }
+    ]

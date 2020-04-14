@@ -1,0 +1,877 @@
+[
+        {
+            "key": "AXDzTelpBwdaS5mJHwHi",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventHistoryService.java",
+            "project": "com.shell.pulses",
+            "line": 342,
+            "hash": "7b12d9d3b2786f079baa77f5599ec372",
+            "textRange": {
+                "startLine": 342,
+                "endLine": 342,
+                "startOffset": 22,
+                "endOffset": 40
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventHistoryService.java",
+                            "textRange": {
+                                "startLine": 342,
+                                "endLine": 342,
+                                "startOffset": 22,
+                                "endOffset": 40
+                            },
+                            "msg": "'todaysDate' is dereferenced."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventHistoryService.java",
+                            "textRange": {
+                                "startLine": 337,
+                                "endLine": 337,
+                                "startOffset": 13,
+                                "endOffset": 30
+                            },
+                            "msg": "'ParseException' is caught."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventHistoryService.java",
+                            "textRange": {
+                                "startLine": 324,
+                                "endLine": 324,
+                                "startOffset": 19,
+                                "endOffset": 38
+                            },
+                            "msg": "'ParseException' is thrown."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventHistoryService.java",
+                            "textRange": {
+                                "startLine": 319,
+                                "endLine": 319,
+                                "startOffset": 4,
+                                "endOffset": 27
+                            },
+                            "msg": "Implies 'todaysDate' is null."
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventHistoryService.java",
+                            "textRange": {
+                                "startLine": 342,
+                                "endLine": 342,
+                                "startOffset": 22,
+                                "endOffset": 40
+                            },
+                            "msg": "'todaysDate' is dereferenced."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventHistoryService.java",
+                            "textRange": {
+                                "startLine": 337,
+                                "endLine": 337,
+                                "startOffset": 13,
+                                "endOffset": 30
+                            },
+                            "msg": "'ParseException' is caught."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventHistoryService.java",
+                            "textRange": {
+                                "startLine": 326,
+                                "endLine": 326,
+                                "startOffset": 23,
+                                "endOffset": 45
+                            },
+                            "msg": "'ParseException' is thrown."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventHistoryService.java",
+                            "textRange": {
+                                "startLine": 319,
+                                "endLine": 319,
+                                "startOffset": 4,
+                                "endOffset": 27
+                            },
+                            "msg": "Implies 'todaysDate' is null."
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventHistoryService.java",
+                            "textRange": {
+                                "startLine": 342,
+                                "endLine": 342,
+                                "startOffset": 22,
+                                "endOffset": 40
+                            },
+                            "msg": "'todaysDate' is dereferenced."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventHistoryService.java",
+                            "textRange": {
+                                "startLine": 337,
+                                "endLine": 337,
+                                "startOffset": 13,
+                                "endOffset": 30
+                            },
+                            "msg": "'ParseException' is caught."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventHistoryService.java",
+                            "textRange": {
+                                "startLine": 325,
+                                "endLine": 325,
+                                "startOffset": 18,
+                                "endOffset": 37
+                            },
+                            "msg": "'ParseException' is thrown."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventHistoryService.java",
+                            "textRange": {
+                                "startLine": 319,
+                                "endLine": 319,
+                                "startOffset": 4,
+                                "endOffset": 27
+                            },
+                            "msg": "Implies 'todaysDate' is null."
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"todaysDate\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "shailesh.s.bobay@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-03-19T14:55:12+0000",
+            "updateDate": "2020-04-07T03:08:53+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXCL3I7NuQ2urw9IhEqi",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/domain/dto/utils/TotalProdConversionUtils.java",
+            "project": "com.shell.pulses",
+            "line": 283,
+            "hash": "9eb11a99d27a26c1029bf78a1e12e30a",
+            "textRange": {
+                "startLine": 283,
+                "endLine": 283,
+                "startOffset": 11,
+                "endOffset": 23
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/domain/dto/utils/TotalProdConversionUtils.java",
+                            "textRange": {
+                                "startLine": 283,
+                                "endLine": 283,
+                                "startOffset": 11,
+                                "endOffset": 23
+                            },
+                            "msg": "'asset' is dereferenced."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/domain/dto/utils/TotalProdConversionUtils.java",
+                            "textRange": {
+                                "startLine": 280,
+                                "endLine": 280,
+                                "startOffset": 22,
+                                "endOffset": 27
+                            },
+                            "msg": "Implies 'asset' is null."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/domain/dto/utils/TotalProdConversionUtils.java",
+                            "textRange": {
+                                "startLine": 336,
+                                "endLine": 336,
+                                "startOffset": 5,
+                                "endOffset": 18
+                            },
+                            "msg": "Implies 'asset' can be null."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/domain/dto/utils/TotalProdConversionUtils.java",
+                            "textRange": {
+                                "startLine": 280,
+                                "endLine": 280,
+                                "startOffset": 22,
+                                "endOffset": 27
+                            },
+                            "msg": "'asset' is passed to 'checkAsset()'."
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"asset\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "shipra.sarang@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-02-28T12:51:26+0000",
+            "updateDate": "2020-04-07T03:08:52+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AXCL3I7NuQ2urw9IhEqj",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/domain/dto/utils/TotalProdConversionUtils.java",
+            "project": "com.shell.pulses",
+            "line": 291,
+            "hash": "9eb11a99d27a26c1029bf78a1e12e30a",
+            "textRange": {
+                "startLine": 291,
+                "endLine": 291,
+                "startOffset": 12,
+                "endOffset": 24
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/domain/dto/utils/TotalProdConversionUtils.java",
+                            "textRange": {
+                                "startLine": 291,
+                                "endLine": 291,
+                                "startOffset": 12,
+                                "endOffset": 24
+                            },
+                            "msg": "'asset' is dereferenced."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/domain/dto/utils/TotalProdConversionUtils.java",
+                            "textRange": {
+                                "startLine": 288,
+                                "endLine": 288,
+                                "startOffset": 22,
+                                "endOffset": 27
+                            },
+                            "msg": "Implies 'asset' is null."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/domain/dto/utils/TotalProdConversionUtils.java",
+                            "textRange": {
+                                "startLine": 336,
+                                "endLine": 336,
+                                "startOffset": 5,
+                                "endOffset": 18
+                            },
+                            "msg": "Implies 'asset' can be null."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/domain/dto/utils/TotalProdConversionUtils.java",
+                            "textRange": {
+                                "startLine": 288,
+                                "endLine": 288,
+                                "startOffset": 22,
+                                "endOffset": 27
+                            },
+                            "msg": "'asset' is passed to 'checkAsset()'."
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"asset\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "shipra.sarang@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2020-02-28T12:51:26+0000",
+            "updateDate": "2020-04-07T03:08:53+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AW7HGfqhynW7J7WeHIas",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+            "project": "com.shell.pulses",
+            "line": 305,
+            "hash": "4ac7c12a472edfa9e036f4efb8647501",
+            "textRange": {
+                "startLine": 305,
+                "endLine": 305,
+                "startOffset": 28,
+                "endOffset": 56
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+                            "textRange": {
+                                "startLine": 305,
+                                "endLine": 305,
+                                "startOffset": 28,
+                                "endOffset": 56
+                            },
+                            "msg": "'arrSplitoptionTextobj' is dereferenced."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+                            "textRange": {
+                                "startLine": 290,
+                                "endLine": 290,
+                                "startOffset": 8,
+                                "endOffset": 46
+                            },
+                            "msg": "Implies 'arrSplitoptionTextobj' is null."
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"arrSplitoptionTextobj\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2019-04-16T05:32:58+0000",
+            "updateDate": "2020-04-07T03:08:54+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AW7HGfqhynW7J7WeHIar",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+            "project": "com.shell.pulses",
+            "line": 309,
+            "hash": "ef23b4a033709734ff4cc03b955281cd",
+            "textRange": {
+                "startLine": 309,
+                "endLine": 309,
+                "startOffset": 41,
+                "endOffset": 62
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"arrSplitOptionListObj\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2019-04-16T05:32:58+0000",
+            "updateDate": "2020-04-07T03:08:55+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AW7HGfqhynW7J7WeHIa2",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+            "project": "com.shell.pulses",
+            "line": 360,
+            "hash": "4ac7c12a472edfa9e036f4efb8647501",
+            "textRange": {
+                "startLine": 360,
+                "endLine": 360,
+                "startOffset": 28,
+                "endOffset": 56
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+                            "textRange": {
+                                "startLine": 360,
+                                "endLine": 360,
+                                "startOffset": 28,
+                                "endOffset": 56
+                            },
+                            "msg": "'arrSplitoptionTextobj' is dereferenced."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+                            "textRange": {
+                                "startLine": 346,
+                                "endLine": 346,
+                                "startOffset": 8,
+                                "endOffset": 46
+                            },
+                            "msg": "Implies 'arrSplitoptionTextobj' is null."
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"arrSplitoptionTextobj\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2019-04-16T05:32:58+0000",
+            "updateDate": "2020-04-07T03:08:55+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AW7HGfqhynW7J7WeHIaw",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+            "project": "com.shell.pulses",
+            "line": 364,
+            "hash": "f202676970136579e2be04f24658d3de",
+            "textRange": {
+                "startLine": 364,
+                "endLine": 364,
+                "startOffset": 35,
+                "endOffset": 51
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"arrSplitValueobj\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2019-04-16T05:32:58+0000",
+            "updateDate": "2020-04-07T03:08:56+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AW7HGfqhynW7J7WeHIap",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+            "project": "com.shell.pulses",
+            "line": 365,
+            "hash": "ef23b4a033709734ff4cc03b955281cd",
+            "textRange": {
+                "startLine": 365,
+                "endLine": 365,
+                "startOffset": 41,
+                "endOffset": 62
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"arrSplitOptionListObj\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2019-04-16T05:32:58+0000",
+            "updateDate": "2020-04-07T03:08:56+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AW7HGfqhynW7J7WeHIa0",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+            "project": "com.shell.pulses",
+            "line": 414,
+            "hash": "4ac7c12a472edfa9e036f4efb8647501",
+            "textRange": {
+                "startLine": 414,
+                "endLine": 414,
+                "startOffset": 28,
+                "endOffset": 56
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+                            "textRange": {
+                                "startLine": 414,
+                                "endLine": 414,
+                                "startOffset": 28,
+                                "endOffset": 56
+                            },
+                            "msg": "'arrSplitoptionTextobj' is dereferenced."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+                            "textRange": {
+                                "startLine": 400,
+                                "endLine": 400,
+                                "startOffset": 8,
+                                "endOffset": 46
+                            },
+                            "msg": "Implies 'arrSplitoptionTextobj' is null."
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"arrSplitoptionTextobj\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2019-04-16T05:32:58+0000",
+            "updateDate": "2020-04-07T03:08:57+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AW7HGfqhynW7J7WeHIaq",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+            "project": "com.shell.pulses",
+            "line": 418,
+            "hash": "f202676970136579e2be04f24658d3de",
+            "textRange": {
+                "startLine": 418,
+                "endLine": 418,
+                "startOffset": 35,
+                "endOffset": 51
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"arrSplitValueobj\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2019-04-16T05:32:58+0000",
+            "updateDate": "2020-04-07T03:08:57+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AW7HGfqhynW7J7WeHIax",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+            "project": "com.shell.pulses",
+            "line": 419,
+            "hash": "ef23b4a033709734ff4cc03b955281cd",
+            "textRange": {
+                "startLine": 419,
+                "endLine": 419,
+                "startOffset": 41,
+                "endOffset": 62
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"arrSplitOptionListObj\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2019-04-16T05:32:58+0000",
+            "updateDate": "2020-04-07T03:08:58+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AW7HGfqhynW7J7WeHIay",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+            "project": "com.shell.pulses",
+            "line": 468,
+            "hash": "4ac7c12a472edfa9e036f4efb8647501",
+            "textRange": {
+                "startLine": 468,
+                "endLine": 468,
+                "startOffset": 28,
+                "endOffset": 56
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+                            "textRange": {
+                                "startLine": 468,
+                                "endLine": 468,
+                                "startOffset": 28,
+                                "endOffset": 56
+                            },
+                            "msg": "'arrSplitoptionTextobj' is dereferenced."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+                            "textRange": {
+                                "startLine": 454,
+                                "endLine": 454,
+                                "startOffset": 8,
+                                "endOffset": 46
+                            },
+                            "msg": "Implies 'arrSplitoptionTextobj' is null."
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"arrSplitoptionTextobj\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2019-04-16T05:32:58+0000",
+            "updateDate": "2020-04-07T03:08:58+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AW7HGfqhynW7J7WeHIat",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+            "project": "com.shell.pulses",
+            "line": 472,
+            "hash": "f202676970136579e2be04f24658d3de",
+            "textRange": {
+                "startLine": 472,
+                "endLine": 472,
+                "startOffset": 35,
+                "endOffset": 51
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"arrSplitValueobj\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2019-04-16T05:32:58+0000",
+            "updateDate": "2020-04-07T03:08:59+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AW7HGfqhynW7J7WeHIau",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+            "project": "com.shell.pulses",
+            "line": 473,
+            "hash": "ef23b4a033709734ff4cc03b955281cd",
+            "textRange": {
+                "startLine": 473,
+                "endLine": 473,
+                "startOffset": 41,
+                "endOffset": 62
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"arrSplitOptionListObj\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2019-04-16T05:32:58+0000",
+            "updateDate": "2020-04-07T03:09:00+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AW7HGfqhynW7J7WeHIa1",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+            "project": "com.shell.pulses",
+            "line": 524,
+            "hash": "4ac7c12a472edfa9e036f4efb8647501",
+            "textRange": {
+                "startLine": 524,
+                "endLine": 524,
+                "startOffset": 28,
+                "endOffset": 56
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+                            "textRange": {
+                                "startLine": 524,
+                                "endLine": 524,
+                                "startOffset": 28,
+                                "endOffset": 56
+                            },
+                            "msg": "'arrSplitoptionTextobj' is dereferenced."
+                        },
+                        {
+                            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+                            "textRange": {
+                                "startLine": 510,
+                                "endLine": 510,
+                                "startOffset": 8,
+                                "endOffset": 46
+                            },
+                            "msg": "Implies 'arrSplitoptionTextobj' is null."
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"arrSplitoptionTextobj\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2019-04-16T05:32:58+0000",
+            "updateDate": "2020-04-07T03:09:00+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AW7HGfqhynW7J7WeHIav",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+            "project": "com.shell.pulses",
+            "line": 528,
+            "hash": "f202676970136579e2be04f24658d3de",
+            "textRange": {
+                "startLine": 528,
+                "endLine": 528,
+                "startOffset": 35,
+                "endOffset": 51
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"arrSplitValueobj\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2019-04-16T05:32:58+0000",
+            "updateDate": "2020-04-07T03:09:01+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        },
+        {
+            "key": "AW7HGfqhynW7J7WeHIaz",
+            "rule": "java:S2259",
+            "severity": "MAJOR",
+            "component": "com.shell.pulses:ishale/src/main/java/com/accenture/app/cloud/ishale/production/service/EventsDetailsService.java",
+            "project": "com.shell.pulses",
+            "line": 529,
+            "hash": "ef23b4a033709734ff4cc03b955281cd",
+            "textRange": {
+                "startLine": 529,
+                "endLine": 529,
+                "startOffset": 41,
+                "endOffset": 62
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "A \"NullPointerException\" could be thrown; \"arrSplitOptionListObj\" is nullable here.",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "Surender.Gummadi@shell.com",
+            "author": "ravi.kalikate@accenture.com",
+            "tags": [
+                "cert",
+                "cwe"
+            ],
+            "creationDate": "2019-04-16T05:32:58+0000",
+            "updateDate": "2020-04-07T03:09:02+0000",
+            "type": "BUG",
+            "organization": "default-organization",
+            "fromHotspot": false
+        }
+    ]
