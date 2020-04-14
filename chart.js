@@ -16,7 +16,7 @@ function drawSeriesChart() {
   dataImport.forEach(item=>{
     data.addRows([
       [
-        item.name,
+        item.name + ', ' + item.title,
         item.security_hotspot.total,
         item.vulnerability.total,
         item.bugs.total>3?"High":item.bugs.total<1?"Low":"Medium",
