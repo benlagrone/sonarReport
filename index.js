@@ -22,18 +22,6 @@ app.use(express.static(path.join(__dirname, "public")));
 /**
  * Routes Definitions
  */
-var tmpData = [
-    { "ID": "CAN", "LifeExpectancy": 80.66, "FertilityRate": 1.67, "Region": "North America", "Population": 33739900 },
-    { "ID": "DEU", "LifeExpectancy": 79.84, "FertilityRate": 1.36, "Region": "Europe", "Population": 81902307 },
-    { "ID": "DNK", "LifeExpectancy": 78.6, "FertilityRate": 1.84, "Region": "Europe", "Population": 5523095 },
-    { "ID": "EGY", "LifeExpectancy": 72.73, "FertilityRate": 2.78, "Region": "Middle East", "Population": 79716203 },
-    { "ID": "GBR", "LifeExpectancy": 80.05, "FertilityRate": 2, "Region": "Europe", "Population": 61801570 },
-    { "ID": "IRN", "LifeExpectancy": 72.49, "FertilityRate": 1.7, "Region": "Middle East", "Population": 73137148 },
-    { "ID": "IRQ", "LifeExpectancy": 68.09, "FertilityRate": 4.77, "Region": "Middle East", "Population": 31090763 },
-    { "ID": "ISR", "LifeExpectancy": 81.55, "FertilityRate": 2.96, "Region": "Middle East", "Population": 7485600 },
-    { "ID": "RUS", "LifeExpectancy": 68.6, "FertilityRate": 1.54, "Region": "Europe", "Population": 141850000 },
-    { "ID": "USA", "LifeExpectancy": 78.09, "FertilityRate": 2.05, "Region": "North America", "Population": 307007000 }
-];
 
 app.get("/", (req, res) => {
     Promise.all(sonar.projects).then((project) => {
@@ -51,7 +39,7 @@ app.get("/bugs", (req, res) => {
 
 app.get("/chart", (req, res) => {
     Promise.all(sonar.projects).then((project) => {
-        res.render("chart", { title: "SonarCube Chart View", projectsData: tmpData, projectsData2:project})
+        res.render("chart", { title: "SonarCube Chart View", projectsData2:project})
     })
 })
 
