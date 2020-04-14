@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
     Promise.all(sonar.projects).then((project) => {
-        res.render("index", { title: "Home", projectsData: project });
+        res.render("index", { title: "SonarCube Overview", projectsData: project });
     })
 });
 

@@ -1,13 +1,9 @@
 var request = require('request');
 var cookie = require('./cookie-import.json');
-// var async = require("async");
 var rp = require('request-promise');
-// var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 let projectsJSON = require('./projects.json');
 var baseUrl = 'https://sesvc.shell.com/api/';
 var issuesURL = 'issues/search?componentKeys=';
-// var typesStrUrl = '&types=';
-// var sevsStrUrl = '&severities='
 var severitiesArray = ['BLOCKER', 'CRITICAL'];
 var typesArray = ['VULNERABILITY', 'BUG', 'SECURITY_HOTSPOT'];
 var cookie = cookie;
@@ -25,10 +21,7 @@ var options = {
   }
 };
 
-var sonarArray = []
-
 function makeStuff(res,project){
-
   var result = JSON.parse(res)
   var bugs = result.issues.filter(issue => issue.type === "BUG");
   var vulnerabilities = result.issues.filter(issue => issue.type === "VULNERABILITY");
@@ -112,8 +105,7 @@ function getData(project, cb) {
 
 var projects = projectsJSON.map((project) => {
   return new Promise((resolve) => {
-    getData(project, resolve)
-
+    getData(project, resolve);
   })
 })
 
