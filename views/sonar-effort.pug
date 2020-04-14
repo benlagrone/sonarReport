@@ -10,14 +10,12 @@ block layout-content
         <div id="series_chart_div" style="width: 900px; height: 500px;"></div>
     
         span.Details Results Breakdown
-
+        
     script.
         var dataImport = !{JSON.stringify(projectsData2).replace(/<\//g, "<\\/")}
 
     script
-        include ../chart.js
-
+        include ../effort-chart.js
    
     include nav.pug
-
 

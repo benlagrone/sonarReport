@@ -43,6 +43,11 @@ app.get("/chart", (req, res) => {
     })
 })
 
+app.get("/effort", (req, res) => {
+    Promise.all(sonar.projects).then((project) => {
+        res.render("sonar-effort", { title: "SonarCube Effort View", projectsData2:project})
+    })
+})
 
 /**
  * Server Activation

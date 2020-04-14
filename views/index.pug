@@ -7,15 +7,10 @@ block layout-content
       div.Title
         h3 Code Scan
         h1 Current Code
-         ul
-            each val in projectsData
-                li= val.key + ': ' + val.issues
+        ul
+          each val in projectsData
+              li= val.key + ': '+ val.issues + ', Effort: ' + val.effortTotal/60 + ' hours'
 
       span.Details Results Breakdown
 
-    ul.NavButtons
-        a(href="/chart")
-            span.NavButton= "Sonar Chart"
-
-        a(href="/bugs")
-            span.NavButton= "Bugs Chart"
+    include nav.pug

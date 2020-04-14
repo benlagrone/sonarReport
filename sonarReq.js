@@ -41,6 +41,7 @@ function makeStuff(res,project){
     name: project.name,
     key: project.key,
     totalIssues: result.total,
+    effortTotal: result.effortTotal,
     issues: (result.issues ? result.issues.length : 0),
     open: result.issues ? result.issues.filter(issue => issue.status === "OPEN").length : 0,
     closed: result.issues ? result.issues.filter(issue => issue.status === "CLOSED").length : 0,
