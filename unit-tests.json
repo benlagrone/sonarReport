@@ -1,0 +1,187 @@
+[
+    {
+        "id": "com.shell.pulsemobileangular",
+        "coverage": [
+            {
+                "Component": "src/app/clairs-finding",
+                "Current Coverage": 17.86,
+                "Explanation": "No new logic.",
+                "increase4A": "Yes. Because it is core functionality, we will test key methods."
+            },
+            {
+                "Component": "src/app/tables/events-table",
+                "Current Coverage": 36.07,
+                "Explanation": "No new logic. ",
+                "increase4A": "Yes, key functionality."
+            },
+            {
+                "Component": "src/app/charts/well-pressure-and-temparature",
+                "Current Coverage": 36.36,
+                "Explanation": "No new logic.",
+                "increase4A": "Yes."
+            },
+            {
+                "Component": "src/app/charts/well-production-details",
+                "Current Coverage": 36.54,
+                "Explanation": "No new logic. ",
+                "increase4A": "No, non-key functionality."
+            },
+            {
+                "Component": "src/app/_services/operator-round.service.ts",
+                "Current Coverage": 32.04,
+                "Explanation": "Need to increase. New logic is not currently covered.",
+                "increase4A": "Yes"
+            },
+            {
+                "Component": "src/app/_services/clairs-finding.service.ts",
+                "Current Coverage": 33.33,
+                "Explanation": "Not using; should be removed.",
+                "increase4A": "No"
+            },
+            {
+                "Component": "src/app/_services/clairs.service.ts",
+                "Current Coverage": 37.20,
+                "Explanation": "No new logic.",
+                "increase4A": "No"
+            },
+            {
+                "Component": "src/app/_services/events.service.ts",
+                "Current Coverage": 43.28,
+                "Explanation": "Need to increase. New logic is not currently covered.",
+                "increase4A": "Yes"
+            },
+            {
+                "Component": "src/app/_services/chart.service.ts",
+                "Current Coverage": 48.84,
+                "Explanation": "Not using; should be removed.",
+                "increase4A": "No"
+            },
+            {
+                "Component": "src/app/_services/authentication.service.ts",
+                "Current Coverage": 63.64,
+                "Explanation": "Not using; should be removed.",
+                "increase4A": "No"
+            },
+            {
+                "Component": "src/app/_services/app.service.ts",
+                "Current Coverage": 68.89,
+                "Explanation": "No new logic. ",
+                "increase4A": "No"
+            },
+            {
+                "Component": "src/app/_services/shift-handover.service.ts",
+                "Current Coverage": 70,
+                "Explanation": "No new logic. ",
+                "increase4A": "No. We are not using this service any more."
+            },
+            {
+                "Component": "src/app/_services/local-storage.service.ts",
+                "Current Coverage": 73.68,
+                "Explanation": "No new logic. ",
+                "increase4A": "No"
+            },
+            {
+                "Component": "src/app/_services/kpi.service.ts",
+                "Current Coverage": 78.57,
+                "Explanation": "Not using; should be removed.",
+                "increase4A": "No"
+            },
+            {
+                "Component": "src/app/tables/clairs-history",
+                "Current Coverage": 50,
+                "Explanation": "Need to increase. New logic is not currently covered.",
+                "increase4A": "Yes"
+            },
+            {
+                "Component": "src/app/nav/vertical-nav",
+                "Current Coverage": 52.23,
+                "Explanation": "No new logic. ",
+                "increase4A": "No, this is mostly display of facility data and less business logic."
+            },
+            {
+                "Component": "src/app/clair",
+                "Current Coverage": 55.68,
+                "Explanation": "No new logic. ",
+                "increase4A": "No. This is a parent component to key sub-components (e.g., clair finding) that should be increased instead."
+            },
+            {
+                "Component": "src/app/tables/action-details-modal",
+                "Current Coverage": 61.76,
+                "Explanation": "Going to be refactored during DLS so there's a likelihood of these being deprecated.",
+                "increase4A": "No"
+            },
+            {
+                "Component": "src/app/main-section-tabs",
+                "Current Coverage": 62.50,
+                "Explanation": "Some new logic but it is already being tested by previous tests.",
+                "increase4A": "No; there are challenges in testing routing."
+            },
+            {
+                "Component": "src/app/tables/action-reassign-modal",
+                "Current Coverage": 63.83,
+                "Explanation": "Going to be refactored during DLS so there's a likelihood of these being deprecated.",
+                "increase4A": "No"
+            },
+            {
+                "Component": "src/app/nav/well-card",
+                "Current Coverage": 64.29,
+                "Explanation": "No new logic. ",
+                "increase4A": "No. Sub-component with less significant logic. "
+            },
+            {
+                "Component": "src/app/shift-handover",
+                "Current Coverage": 65.50,
+                "Explanation": "Need to increase. New logic is not currently covered.",
+                "increase4A": "Yes"
+            },
+            {
+                "Component": "src/app/tables/event-history",
+                "Current Coverage": 66.67,
+                "Explanation": "No new logic. ",
+                "increase4A": "Yes, key functionality."
+            },
+            {
+                "Component": "src/app/clairs-no-finding",
+                "Current Coverage": 67.39,
+                "Explanation": "No new logic. ",
+                "increase4A": "Yes"
+            },
+            {
+                "Component": "src/app/clair-finding-confirmation-modal",
+                "Current Coverage": 68.35,
+                "Explanation": "No new logic. ",
+                "increase4A": "Yes"
+            },
+            {
+                "Component": "src/app/operator-rounds",
+                "Current Coverage": 69.23,
+                "Explanation": "No new logic. ",
+                "increase4A": "No. Minimal business logic here; just displaying data as received."
+            },
+            {
+                "Component": "src/app/facility-search-bar",
+                "Current Coverage": 71.43,
+                "Explanation": "No new logic. ",
+                "increase4A": "Yes, simple facility filter logic should be tested."
+            },
+            {
+                "Component": "src/app/operator-round-summary",
+                "Current Coverage": 74.44,
+                "Explanation": "No new logic. ",
+                "increase4A": "Yes"
+            },
+            {
+                "Component": "src/app/charts/single-axis-chart",
+                "Current Coverage": 77.42,
+                "Explanation": "No new logic. ",
+                "increase4A": "No because most of the logic includes config of 3rd party library object (chart.js)."
+            },
+            {
+                "Component": "src/app/tables/open-events",
+                "Current Coverage": 79.83,
+                "Explanation": "No new logic. ",
+                "increase4A": "Yes, key functionality."
+            }
+        ]
+    }
+]
